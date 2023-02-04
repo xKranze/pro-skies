@@ -1,23 +1,89 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
-    
-        
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
+
+
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
-    
+  <div class="row nav">
+    <div class="col-3"></div>
+    <div class="col-9">
+      <h1>Weather Dashboard</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <h2>Search for a City:</h2>
+      <input id="cityName" placeholder="City">
+      <button id="search">Search</button>
+      <hr>
+      <ul id="history" class="list-group"></ul>
+    </div>
+    <div class="col-9">
+      <div>
+        <div>
+          <h2 id="city">City</h2>
+          <i id="icon"></i>
+        </div>
+        <label id="temp">Temp:</label>
+        <label id="wind">Wind:</label>
+        <label id="humi">Humidity:</label>
+      </div>
+      <h3>5-Day Forecast:</h3>
+      <div class="row">
+        <div class="col">
+          <h4 id="date0">Day-1</h4>
+          <i id="icon0"></i>
+          <label id="temp0">Temp:</label>
+          <label id="wind0">Wind:</label>
+          <label id="humi0">Humidity:</label>
+        </div>
+        <div class="col">
+          <h4 id="date1">Day-1</h4>
+          <i id="icon1"></i>
+          <label id="temp1">Temp:</label>
+          <label id="wind1">Wind:</label>
+          <label id="humi1">Humidity:</label>
+        </div>
+        <div class="col">
+          <h4 id="date2">Day-1</h4>
+          <i id="icon2"></i>
+          <label id="temp2">Temp:</label>
+          <label id="wind2">Wind:</label>
+          <label id="humi2">Humidity:</label>
+        </div>
+        <div class="col">
+          <h4 id="date3">Day-1</h4>
+          <i id="icon3"></i>
+          <label id="temp3">Temp:</label>
+          <label id="wind3">Wind:</label>
+          <label id="humi3">Humidity:</label>
+        </div>
+        <div class="col">
+          <h4 id="date4">Day-1</h4>
+          <i id="icon4"></i>
+          <label id="temp4">Temp:</label>
+          <label id="wind4">Wind:</label>
+          <label id="humi4">Humidity:</label>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!-- Added link to the jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
