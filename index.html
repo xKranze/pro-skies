@@ -14,13 +14,15 @@
 </head>
 
 <body>
+  <!-- Top headline page title -->
   <div class="row nav">
     <div class="col-3"></div>
     <div class="col-9">
       <h1>Weather Dashboard</h1>
     </div>
   </div>
-  <div class="row">
+  <!-- Side bar search bar -->
+  <div class="row sidebar">
     <div class="col-3">
       <h2>Search for a City:</h2>
       <input id="cityName" placeholder="City">
@@ -28,6 +30,7 @@
       <hr>
       <ul id="history" class="list-group"></ul>
     </div>
+    <!-- Current selected weather view -->
     <div class="col-9">
       <div>
         <div>
@@ -35,44 +38,63 @@
           <img id="icon">
         </div>
         <label id="temp">Temp:</label>
+        <br>
         <label id="wind">Wind:</label>
+        <br>
         <label id="humi">Humidity:</label>
       </div>
       <h3>5-Day Forecast:</h3>
+      <!-- cards for 5 day forecast -->
       <div class="row">
-        <div class="col">
+        <div class="col cards">
           <h4 id="date0">Day-1</h4>
           <img id="icon0">
+          <br>
           <label id="temp0">Temp:</label>
+          <br>
           <label id="wind0">Wind:</label>
+          <br>
           <label id="humi0">Humidity:</label>
         </div>
-        <div class="col">
+        <div class="col cards">
           <h4 id="date1">Day-2</h4>
           <img id="icon1">
+          <br>
           <label id="temp1">Temp:</label>
+          <br>
           <label id="wind1">Wind:</label>
+          <br>
           <label id="humi1">Humidity:</label>
         </div>
-        <div class="col">
+        <div class="col cards">
           <h4 id="date2">Day-3</h4>
           <img id="icon2">
+          <br>
           <label id="temp2">Temp:</label>
+          <br>
           <label id="wind2">Wind:</label>
+          <br>
           <label id="humi2">Humidity:</label>
+          <br>
         </div>
-        <div class="col">
+        <div class="col cards">
           <h4 id="date3">Day-4</h4>
           <img id="icon3">
+          <br>
           <label id="temp3">Temp:</label>
+          <br>
           <label id="wind3">Wind:</label>
+          <br>
           <label id="humi3">Humidity:</label>
         </div>
-        <div class="col">
+        <div class="col cards">
           <h4 id="date4">Day-5</h4>
           <img id="icon4">
+          <br>
           <label id="temp4">Temp:</label>
+          <br>
           <label id="wind4">Wind:</label>
+          <br>
           <label id="humi4">Humidity:</label>
         </div>
       </div>

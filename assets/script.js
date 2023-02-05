@@ -29,9 +29,10 @@ function fetchWeather(city) {
     })
         .then((response) => response.json())
         .then(function (data) {
+            console.log(data);
             // Ensures data is not null
             if (data) {
-                console.log(data);
+               
                 // Code for invalid city name
                 if (data.cod == '404') {
                     $("#city").text(data.message);
@@ -74,7 +75,7 @@ function fetchWeather(city) {
         .then((response) => response.json())
         .then(function (data) {
             if (data) {
-                //list[3], [11], [19], [27], [35] - specific position of the forecast for noon of the next 5 days
+                //list[3], [11], [19], [27], [35] - specific position of the forecast for noon of the next 5 days (oenweathermap has hours set in 3 hours intervals)
                 if (data.cod == "200") {
                     // Get current date
                     var day = dayjs();
