@@ -36,7 +36,7 @@ function fetchWeather(city) {
                 if (data.cod == '404') {
                     $("#city").text(data.message);
 
-                // Successful pull of weather data for the city 
+                    // Successful pull of weather data for the city 
                 } else if (data.cod == "200") {
 
                     // Update the weather page with data from the api
@@ -93,8 +93,8 @@ function fetchWeather(city) {
 }
 
 // Convert kelvin to fahrenheit
-function convertKtoF(kelvin){
-    return (((kelvin-273.15)*9)/5)+32;
+function convertKtoF(kelvin) {
+    return (((kelvin - 273.15) * 9) / 5) + 32;
 }
 
 // AddeventListener to search button
