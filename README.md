@@ -9,7 +9,7 @@ Displays current and future temp, wind and humidity along with thier respective 
 
 
 ## Usage
- 
+ Live Page: https://xkranze.github.io/skys-the-limit/
 ![alt text](./assets/SkysTheLimitSnipp.jpg)
 
 ## Credits
