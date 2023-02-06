@@ -23,4 +23,8 @@ https://www.w3schools.com
 -
 https://www.youtube.com
 -
+https://jquery.com/download/
+-
+https://fonts.google.com/
+-
 Tutoring
