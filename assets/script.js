@@ -75,7 +75,7 @@ function fetchWeather(city) {
         .then((response) => response.json())
         .then(function (data) {
             if (data) {
-                //list[3], [11], [19], [27], [35] - specific position of the forecast for noon of the next 5 days (oenweathermap has hours set in 3 hours intervals)
+                //list[3], [11], [19], [27], [35] - specific position of the forecast for noon of the next 5 days (oneweathermap has hours set in 3 hours intervals)
                 if (data.cod == "200") {
                     // Get current date
                     var day = dayjs();
@@ -87,6 +87,7 @@ function fetchWeather(city) {
                         $("#temp" + i).text("Temp: " + convertKtoF(data.list[3 + (i * 8)].main.temp).toFixed(2) + " °F");
                         $("#wind" + i).text("Wind: " + data.list[3 + (i * 8)].wind.speed + " MPH");
                         $("#humi" + i).text("Humidity: " + data.list[3 + (i * 8)].main.humidity + " %");
+                        console.log(data.list)
                     }
                 }
             }

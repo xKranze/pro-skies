@@ -1,60 +1,69 @@
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:rgb(226, 225, 221);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(226, 225, 221);
     margin: 10px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
+    font-family: 'Fredoka One', cursive;
 }
 
-.nav{
-    background-image: linear-gradient(to right, rgb(155, 168, 187) , rgb(50, 100, 239));
-}
-.sidebar{
-    
+.nav {
+    background-image: linear-gradient(to right, rgb(155, 168, 187), rgb(50, 100, 239));
+   border-radius: 5px;
 }
 
-.cityButton{
-    background:rgb(205, 205, 208);
+#history {
+    background-color: blue;
+
+}
+
+.cityButton {
+    background: rgb(205, 205, 208);
     width: 100%;
     padding: 3px 3px 3px 3px;
-    
+
 }
 
-.cityButon::shadow{
+.cityButon::shadow {
     color: darkblue;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
 .cards {
+    background-color: darkgrey;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #1D7BE3;
     box-shadow: 0px 0px 20px 0px rgb(62 28 131 / 8%);
-    border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
     margin: 12px 12px 12px 12px;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 
-.mainWindow{
+.current {
+    background-color: darkgrey;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #1D7BE3;
     box-shadow: 0px 0px 20px 0px rgb(62 28 131 / 8%);
-    border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
+    margin: 12px 12px 12px 12px;
+    padding: 40px 40px 40px 40px;
 }
 
 @media screen and (max-width: 768px) {
+
     nav,
     main,
     .sidebar,
     .cards,
     .col {
-      flex-direction: column;
-      flex-wrap: wrap;
-      display: block;
-      float: none;
-      width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: block;
+        float: none;
+        width: 100%;
     }
-  }
+}
