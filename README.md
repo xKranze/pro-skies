@@ -15,8 +15,6 @@ Displays current and future temp, wind and humidity along with thier respective 
 ## Credits
 UW Bootcamp activities.
 -
-https://openweathermap.org/
--
 https://openweathermap.org 
 -
 https://stackoverflow.com
