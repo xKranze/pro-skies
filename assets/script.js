@@ -32,7 +32,7 @@ function fetchWeather(city) {
             console.log(data);
             // Ensures data is not null
             if (data) {
-               
+
                 // Code for invalid city name
                 if (data.cod == '404') {
                     $("#city").text(data.message);
@@ -94,7 +94,7 @@ function fetchWeather(city) {
         });
 }
 
-$( "current" ).css( {"background-image" : "url(skyBGgrass (1).jpg )"} );
+$("current").css({ "background-image": "url(skyBGgrass (1).jpg )" });
 
 // Convert kelvin to fahrenheit
 function convertKtoF(kelvin) {
@@ -115,4 +115,3 @@ $(".cityButton").on('click', function (e) {
         fetchWeather(e.target.innerText);
     }
 });
-

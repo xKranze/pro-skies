@@ -9,14 +9,16 @@ Displays current and future temp, wind and humidity along with thier respective 
 
 
 ## Usage
- 
+ https://xkranze.github.io/skys-the-limit/
 ![alt text](./assets/SkysTheLimitSnipp.jpg)
 
 ## Credits
-UW Bootcamp ativities.
+UW Bootcamp activities.
 -
 https://stackoverflow.com
 -
 https://www.w3schools.com
 -
 https://www.youtube.com
+-
+Tutoring
