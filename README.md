@@ -9,7 +9,7 @@ Displays current and future temp, wind and humidity along with thier respective 
 
 
 ## Usage
-
+ 
 ![alt text](./assets/SkysTheLimitSnip.jpg)
 
 ## Credits
