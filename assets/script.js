@@ -94,6 +94,8 @@ function fetchWeather(city) {
         });
 }
 
+$( "current" ).css( {"background-image" : "url(skyBGgrass (1).jpg )"} );
+
 // Convert kelvin to fahrenheit
 function convertKtoF(kelvin) {
     return (((kelvin - 273.15) * 9) / 5) + 32;

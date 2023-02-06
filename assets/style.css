@@ -1,14 +1,22 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-image: url("./skyBGgrass\ \(1\).jpg"); */
     background-color: rgb(226, 225, 221);
     margin: 10px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
     font-family: 'Fredoka One', cursive;
+
+}
+
+:root{
+    --light:rgb(216, 230, 236);
+}
+p {
+    opacity: 50%;
 }
 
 .nav {
     background-image: linear-gradient(to right, rgb(155, 168, 187), rgb(50, 100, 239));
-   border-radius: 5px;
+    border-radius: 5px;
 }
 
 #history {
@@ -16,15 +24,31 @@ body {
 
 }
 
+#search {
+    border-radius: 10px;
+    width: 50%;
+    margin:10px ;
+    box-shadow: 0 2px #585454;
+}
+#search:active {
+    background-color: #3889da;
+    box-shadow: 3px #666;
+    transform: translateY(4px);
+}
+#search:hover{
+    color: gold;
+    transition: 5ms;
+}
 .cityButton {
     background: rgb(205, 205, 208);
     width: 100%;
     padding: 3px 3px 3px 3px;
+    opacity: 50%;
 
 }
 
-.cityButon::shadow {
-    color: darkblue;
+::placeholder {
+    opacity: 40%;
 }
 
 h1 {
@@ -32,7 +56,7 @@ h1 {
 }
 
 .cards {
-    background-color: darkgrey;
+    background-color:var(--light);
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #1D7BE3;
@@ -43,7 +67,7 @@ h1 {
 }
 
 .current {
-    background-color: darkgrey;
+    background-color:var(--light);
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #1D7BE3;
@@ -52,6 +76,7 @@ h1 {
     margin: 12px 12px 12px 12px;
     padding: 40px 40px 40px 40px;
 }
+
 
 @media screen and (max-width: 768px) {
 
